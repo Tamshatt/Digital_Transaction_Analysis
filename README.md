@@ -1,21 +1,23 @@
-Digital Wallet Transaction Analysis
+**Digital Wallet Transaction Analysis**
 This project demonstrates a comprehensive end-to-end data analytics pipeline built using SQL, Power BI. The goal was to analyze and visualize user behavior, merchant performance, transaction patterns, and platform efficiency for a digital wallet system using a real-world inspired transaction dataset.
 
-Dataset Description
+**Dataset Description**
 The dataset simulates transactional data for a digital wallet application. It includes over 4,700 records and contains fields like:
 
 Transaction ID, User ID, Transaction Date
 Product Category, Merchant Name, Payment Method
 Product Amount, Cashback, Loyalty Points
 Device Type, Location, Transaction Status
+
 The dataset spans transactions between August 2023 and August 2024, making it ideal for trend and behavioral analysis.
 
-Tools and Technologies Used
+**Tools and Technologies Used**
+
 MySQL – Data cleaning, aggregation, and view creation
 SQL – Custom queries and KPI calculations
 Power BI – Interactive dashboard with slicers, cards, and charts
 
-Step-by-Step Project Workflow
+**Step-by-Step Project Workflow**
 Data Loading & Setup
 
 Loaded .csv data into MySQL 
@@ -30,7 +32,7 @@ Connected Power BI to MySQL views
 Created 3 pages: Executive Overview, Customer Insights, Merchant Performance
 Used slicers, KPIs, bar/line charts, pie charts
 
-Conclusion & Recommendations
+**Conclusion & Recommendations**
 
 Interpreted all findings into business insights for product, marketing, and operational decisions
 Analysis Findings
